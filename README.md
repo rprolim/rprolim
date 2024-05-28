@@ -6,7 +6,7 @@ class PhysicsStudent:
 
   def __init__(self):
     self.name = 'Raphael Rolim'
-    self.role = 'Undegraduate Student'
+    self.role = ['Undegraduate Student', 'Research Assistant']
     self.research = 'Cosmology'
     self.member = 'BINGO/ABDUS radio-telescope'
     self.language_computer = ['Python', 'C++', 'SQL']
