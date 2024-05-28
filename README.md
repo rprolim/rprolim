@@ -1,16 +1,20 @@
-## Hi there 👋
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-<!--
-**rprolim/rprolim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class PhysicsStudent:
 
-Here are some ideas to get you started:
+  def __init__(self):
+    self.name = 'Raphael Rolim'
+    self.role = 'Undegraduate Student'
+    self.research = 'Cosmology'
+    self.member = 'BINGO/ABDUS radio-telescope'
+    self.language_computer = ['Python', 'C++', 'SQL']
+    self.language_real = ['pt_BR', 'en_US']
+    
+  def says_hy(self):
+    print('Really happy seeing you here!')
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+me = PhysicsStudent()
+me.says_hy()
+```
