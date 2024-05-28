@@ -12,7 +12,7 @@ class PhysicsStudent:
     self.member = 'BINGO/ABDUS radio-telescope'
     self.language_computer = ['Python', 'C++', 'SQL']
     self.language_real = ['pt_BR', 'en_US']
-    self.loves = {'Girlfriend':'Luiza', 'Book':'Dune', 'Movie':'Star Wars', 'Food':'Sfiha'}
+    self.loves = {'Book':'Dune', 'Movie':'Star Wars', 'Food':'Sfiha'}
     
   def says_hy(self):
     print('Hello there!')
